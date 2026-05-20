@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOUNDPEATS"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        android:letterSpacing="0.25"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANC Control"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detecting device…"
+        android:textColor="#888888"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:layout_marginBottom="48dp" />
+
+    <!-- Pill: long-press to add widget -->
+    <LinearLayout
+        android:id="@+id/pill_container"
+        android:layout_width="220dp"
+        android:layout_height="64dp"
+        android:background="@drawable/widget_bg"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="6dp"
+        android:longClickable="true">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/btn_anc"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_ripple"
+                android:src="@drawable/ic_anc"
+                android:scaleType="fitCenter"
+                android:padding="14dp"
+                android:contentDescription="ANC" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/btn_normal"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_ripple"
+                android:src="@drawable/ic_normal"
+                android:scaleType="fitCenter"
+                android:padding="14dp"
+                android:contentDescription="Normal" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/btn_pass"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_ripple"
+                android:src="@drawable/ic_pass"
+                android:scaleType="fitCenter"
+                android:padding="14dp"
+                android:contentDescription="Transparency" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Long press to add widget to home screen"
+        android:textColor="#555555"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Disclaimer -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For this app to detect and connect to your earbuds, Soundpeats or Air 4 must be present in the device name. If you are having problems, rename your earbuds accordingly or factory reset them."
+        android:textColor="#444444"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.4"
+        android:layout_marginBottom="0dp" />
+
+    <!-- Spacer pushes GitHub to bottom -->
+    <android.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tv_github"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GitHub"
+        android:textColor="#555555"
+        android:textSize="12sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+</LinearLayout>

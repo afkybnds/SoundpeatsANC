@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+    <!-- Each FrameLayout has btn_widget_press as background:
+         a transparent oval that turns white on press — works in RemoteViews -->
+    <FrameLayout
+        android:id="@+id/pos_anc"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_widget_press"
+        android:clickable="true"
+        android:focusable="true">
+        <ImageView
+            android:id="@+id/icon_anc"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_anc"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/pos_normal"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_widget_press"
+        android:clickable="true"
+        android:focusable="true">
+        <ImageView
+            android:id="@+id/icon_normal"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_normal"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/pos_pass"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/btn_widget_press"
+        android:clickable="true"
+        android:focusable="true">
+        <ImageView
+            android:id="@+id/icon_pass"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_pass"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+
+</LinearLayout>
