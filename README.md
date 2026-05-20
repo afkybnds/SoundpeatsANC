@@ -1,24 +1,28 @@
+# Description
 A compact Android application to quickly switch between ANC modes on Soundpeats earbuds. 
 
-The official Soundpeats app has duplicates that sometime work and sometimes don't, even if they work they require internet connection and the chinese servers sometimes are a bit too slow so this is the perfect solution for that.
+<img width="231" height="512" alt="image" src="https://github.com/user-attachments/assets/eedea78a-7b89-45fa-aa31-be3aeff2608d" />
 
--FEATURES
+The official Soundpeats app has duplicates that sometime work and sometimes don't, 
+even if they work they require internet connection and the chinese servers sometimes are a bit too slow so this is the perfect solution for that.
+
+# Features
 
 ANC / Normal / Transparency mode switching.
 
 Identifying earbud mac address. (the bluetooth device name needs to contain "sounpea", "air4" or "air 4" to correctly identify)
 
-A slick 2x1 widget for quick mode switching.
-
 No performance impact and background process required.
 
-<img width="540" height="291" alt="resim" src="https://github.com/user-attachments/assets/4bcabc9f-1246-4424-ad04-e1c8daeefc02" />
+A slick 2x1 widget for quick mode switching.
 
--DOWNLOAD
+<img width="270" height="145" alt="image" src="https://github.com/user-attachments/assets/4bcabc9f-1246-4424-ad04-e1c8daeefc02" />
+
+# Download
 
 You can download the latest release by clicking [here](https://github.com/afkybnds/SoundpeatsANC/archive/refs/tags/v1.0.zip).
 
--NOTES
+# Notes
 
 *Made for and tested on specifically the Soundpeats Air 4 Pro model, will only work if your device uses the same bluetooth commands and has an identifiable device name.
 
