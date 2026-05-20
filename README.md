@@ -1,7 +1,8 @@
 # Description
 A compact Android application to quickly switch between ANC modes on Soundpeats earbuds. 
 
-<img width="231" height="512" alt="image" src="https://github.com/user-attachments/assets/eedea78a-7b89-45fa-aa31-be3aeff2608d" />
+<img width="231" height="512" alt="image" src="https://github.com/user-attachments/assets/ec2d6dc7-c6fd-4c51-96c6-349f2909208c" />
+
 
 The official Soundpeats app has duplicates that sometime work and sometimes don't, 
 even if they work they require internet connection and the chinese servers sometimes are a bit too slow so this is the perfect solution for that.
