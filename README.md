@@ -12,6 +12,8 @@ A slick 2x1 widget for quick mode switching.
 
 No performance impact and background process required.
 
+<img width="540" height="291" alt="resim" src="https://github.com/user-attachments/assets/4bcabc9f-1246-4424-ad04-e1c8daeefc02" />
+
 -DOWNLOAD
 
 You can download the latest release by clicking [here](https://github.com/afkybnds/SoundpeatsANC/archive/refs/tags/v1.0.zip).
