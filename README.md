@@ -12,6 +12,10 @@ A slick 2x1 widget for quick mode switching.
 
 No performance impact and background process required.
 
+-DOWNLOAD
+
+You can download the latest release by clicking [here](https://github.com/afkybnds/SoundpeatsANC/archive/refs/tags/v1.0.zip).
+
 -NOTES
 
 *Made for and tested on specifically the Soundpeats Air 4 Pro model, will only work if your device uses the same bluetooth commands and has an identifiable device name.
